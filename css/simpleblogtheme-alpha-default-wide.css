@@ -1,0 +1,24 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+
+.logo-img img#logo {
+    height: auto;
+    width: auto;
+}
+
+.view-taxonomy-articles .views-row .views-field-comment-count span, .view-taxonomy-articles .views-row .views-field-comment-count a, .view-taxonomy-articles .views-row .like, .view-taxonomy-articles .views-row .views-field .like span.lb-count.lb-hidden, .view-taxonomy-articles .views-row .views-field .like span.lb-like, .view-taxonomy-articles .views-row .views-field .like span.lb-count, .view-article-page .views-row .views-field-comment-count span, .view-article-page .views-row .views-field-comment-count a, .view-article-page .views-row .like, .view-article-page .views-row .views-field .like span.lb-count.lb-hidden, .view-article-page .views-row .views-field .like span.lb-like, .view-article-page .views-row .views-field .like span.lb-count, .view-frontend-blog .views-row .views-field-comment-count span, .view-frontend-blog .views-row .views-field-comment-count a, .view-frontend-blog .views-row .like, .view-frontend-blog .views-row .views-field .like span.lb-count.lb-hidden, .view-frontend-blog .views-row .views-field .like span.lb-like, .view-frontend-blog .views-row .views-field .like span.lb-count
+{
+font-size: 14px;
+}
+
+
+.view-taxonomy-articles .views-field-view-node .image img, .view-frontend-blog .views-field-view-node .image img
+{
+    height: auto;
+    width: auto;
+}
+
+ul.nice-menu-down li.menuparent ul li {
+    margin-left: auto;
+    width: 250px;
+}

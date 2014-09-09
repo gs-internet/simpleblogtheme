@@ -1,0 +1,234 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+ 
+ 
+body
+{
+background-size: 720px 210px;
+padding-top: 210px!important;
+font-size: 12px;
+} 
+
+
+.logo-img img#logo {
+    height: auto;
+    left: 275px;
+    width: 150px;
+}
+
+
+
+#zone-branding-wrapper {
+    top: 135px;
+}
+
+#nice-menu-1 {
+    padding: 10px 0;
+}
+
+
+#nice-menu-1 li a, #nice-menu-1 li span
+{
+font-size: 20px;
+}
+
+.logo-img img#logo {
+    left: 275px;
+}
+
+#nice-menu-1 li:nth-child(1) {
+    left: -119px;
+}
+
+#nice-menu-1 li:nth-child(2) {
+    left: -68px;
+}
+
+#nice-menu-1 li:nth-child(3) {
+    left: 138px;
+}
+
+
+#nice-menu-1 li:nth-child(4) {
+    left: 158px;
+}
+
+#nice-menu-1 ul li a {
+    font-size: 16px;
+    margin: 0 15px;
+    padding: 10px 0;
+}
+
+
+
+#zone-content #region-content #block-system-main {
+    padding: 0;
+}
+
+
+.view-taxonomy-articles .views-row .title a ,
+.view-frontend-blog .views-row .title a {
+    font-size: 24px;
+	}
+	
+
+.view-taxonomy-articles .views-field-view-node .image img,
+.view-frontend-blog .views-field-view-node .image img
+{
+width: 200px;
+height: auto;
+}	
+
+
+.view-taxonomy-articles .views-row .views-field-created span.field-content,
+.view-article-page .views-row .views-field-created span.field-content,
+.view-frontend-blog .views-row .views-field-created span.field-content {
+    border: 5px solid #ebebeb;
+    border-radius: 100px;
+    color: #3eb3a5;
+    display: inline-block;
+    font-size: 20px;
+    padding: 24px 5px;
+    text-align: center;
+    width: 74px;
+}
+
+
+.view-taxonomy-articles .views-row .views-field-comment-count,
+.view-article-page .views-row .views-field-comment-count,
+.view-frontend-blog .views-row .views-field-comment-count {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+	padding-top: 0;
+}
+
+.view-article-page .views-row .views-field-comment-count
+{
+	padding-top: 10px;
+}
+
+
+.view-article-page .views-row .views-field-title, .view-article-page .views-row .views-field-body, .view-article-page .views-row .views-field-field-image, .view-article-page .views-row .views-field-term-node-tid-1 {
+    margin-left: 102px;
+}
+
+
+
+
+.view-taxonomy-articles .views-row .views-field-comment-count span,
+.view-taxonomy-articles .views-row .views-field-comment-count a,
+.view-taxonomy-articles .views-row .like,
+.view-taxonomy-articles .views-row .views-field .like span.lb-count.lb-hidden, .view-taxonomy-articles .views-row .views-field .like span.lb-like, .view-taxonomy-articles .views-row .views-field .like span.lb-count,
+.view-article-page .views-row .views-field-comment-count span,
+.view-article-page .views-row .views-field-comment-count a,
+.view-article-page .views-row .like,
+.view-article-page .views-row .views-field .like span.lb-count.lb-hidden, .view-article-page .views-row .views-field .like span.lb-like, .view-article-page .views-row .views-field .like span.lb-count,
+.view-frontend-blog .views-row .views-field-comment-count span,
+.view-frontend-blog .views-row .views-field-comment-count a,
+.view-frontend-blog .views-row .like,
+.view-frontend-blog .views-row .views-field .like span.lb-count.lb-hidden, .view-frontend-blog .views-row .views-field .like span.lb-like, .view-frontend-blog .views-row .views-field .like span.lb-count
+{
+font-size: 11px;
+}
+
+.view-article-page .views-field-field-image img {
+    height: auto;
+    width: 100%;
+}
+
+form.comment-form .description
+{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+
+form.comment-form .form-item-name input {
+    width: 200px;
+}
+
+
+form.comment-form .form-item-mail input {
+    width: 200px;
+}
+
+
+#contact-site-form input, #contact-site-form textarea,
+form.comment-form input, form.comment-form textarea
+{
+padding: 10px;
+}
+
+#contact-site-form input,
+form.comment-form input {
+    height: 40px;
+}
+
+
+form.comment-form .field-name-comment-body .form-textarea-wrapper {
+    margin-right: 140px;
+    width: 415px;
+}
+
+body.page-comment-reply form.comment-form .field-name-comment-body .form-textarea-wrapper{
+    margin-right: 143px;
+    width: 413px;
+}
+
+
+form.comment-form .form-actions input {
+    margin-right: 140px;
+    width: 415px;
+}
+
+
+body.page-comment-reply form.comment-form .form-actions input {
+    margin-right: 143px;
+    width: 413px;
+}
+
+
+form.comment-form .form-item-name label {
+    left: 150px;
+    padding-top: 10px;
+}
+
+body.page-comment-reply form.comment-form .form-item-name label{
+    left: 275px;
+    padding-top: 10px;
+}
+
+
+
+form.comment-form .form-item-mail label {
+    left: 365px;
+    padding-top: 10px;
+}
+
+body.page-comment-reply form.comment-form .form-item-mail label{
+    left: 487px;
+    padding-top: 10px;
+}
+
+
+form.comment-form .field-name-comment-body label {
+    left: 150px;
+    padding-top: 10px;
+}
+
+body.page-comment-reply form.comment-form .field-name-comment-body label{
+    left: 275px;
+    padding-top: 10px;
+}
+
+#contact-site-form label
+{
+    padding-left: 10px;
+    padding-top: 10px;
+}
